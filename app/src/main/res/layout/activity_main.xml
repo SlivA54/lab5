@@ -51,6 +51,7 @@
         app:layout_constraintVertical_bias="0.165">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/num"
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:hint="Количество" />
