@@ -38,7 +38,6 @@ class MainActivity : AppCompatActivity() {
 
         seekBar.max = 100
 
-
         seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
                 text1.text = "$progress%"
